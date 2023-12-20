@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <title>
+        COMP6991 23T3 —
+        
+Page Not Found!
+
+    </title>
+
+    <link rel="canonical" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;"/>
+    
+    <link rel="shortcut icon" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;static&#x2F;staging-favicon.jpg?1703049043956" type="image/x-icon">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha256-aAr2Zpq8MZ+YA/D6JtRD3xtrwpEz2IqOS+pWD/7XKIw=" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;static&#x2F;course.css?1703049043956"/>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"
+            integrity="sha256-/ijcOLwFf26xEYAjW75FizKVo5tnTYiQddPZoLUHHZ8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha256-OFRAJNoaD8L3Br5lglV7VyLRf0itmoBzWUoM+Sji4/8=" crossorigin="anonymous"></script>
+
+    <!-- <script async src="https://static.codepen.io/assets/embed/ei.js"></script> -->
+
+    <!-- MathJax. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/latest.js?config=TeX-MML-AM_CHTML"
+            async="yes"></script>
+
+    
+    
+
+    
+</head>
+<body class="d-flex flex-column" style="min-height: 100vh;">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light no-print" id="header-navbar">
+    <div class="container">
+        <div class="mr-auto">
+            <button id="hide-contentbar" class="toggler-button" onclick="document.getElementById('contentbar').classList.toggle('hidden-contentbar')">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;">
+              COMP6991 - 23T3 
+            </a>
+        </div>
+        <div class="">
+          <a href="https://doc.rust-lang.org/stable/std/" target="_blank">
+            <img loading="lazy" src="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;/static/ferris.png" height="48">
+          </a>
+        </div>
+    </div>
+</nav>
+<main class="container" aria-label="Content" style="flex: 1; padding-top: 4rem;">
+    <div class="row">
+        <nav id="contentbar" class="bg-light sidebar col-lg-3 hidden-contentbar">
+            <div class="sidebar-sticky pt-3">
+                <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mb-1 text-muted">
+                    Important Links
+                </h6>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="d-flex nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;forum&#x2F;" target="_blank">
+                            Course Forum
+                            <img style="color: transparent;" onload="this.style.color='black'" class="justify-content-between" src="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;/static/new_tab_icon.png" width="20" height="20" alt="open in new tab">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;outline" target="_blank">
+                            Course Outline
+                            <img style="color: transparent;" onload="this.style.color='black'" class="justify-content-between" src="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;/static/new_tab_icon.png" width="20" height="20" alt="open in new tab">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;blog_posts">
+                            Blog Posts 
+                        </a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;timetable">
+                            Course Timetable
+                        </a>
+                    </li>
+                </ul><h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                    Resources
+                </h6>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" type="button" data-toggle="collapse" href="#home-computing">
+                            Home Computing
+                        </a>
+                        <div class="collapse" id="home-computing">
+                            <div class="card card-body" style="padding: 0.5rem">
+                                
+                                <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;resources/rust-toolchain">
+                                Installing the Rust toolchain
+                                </a>
+                                <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;resources/editor-vscode">
+                                Writing Rust in VS Code
+                                </a>
+                                <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;resources/editor-neovim">
+                                Writing Rust in Neovim
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lectures">
+                            Lectures
+                        </a>
+                    </li>
+					
+                </ul>
+
+                
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        Assignments
+                    </h6>
+
+                      
+                          
+                              <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;assignment/01">
+                                  Assignment 1
+                              </a>
+                          
+                              <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;assignment/02">
+                                  Assignment 2
+                              </a>
+                          
+                      
+                
+
+
+                
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        Week by Week
+                    </h6>
+
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                                <a class="nav-link" type="button" data-toggle="collapse" href="#week00">
+                                    Week 00
+                                </a>
+                                <div class="collapse " id="week00">
+                                    <div class="card card-body" style="padding: 0.5rem">
+                                        
+                                            
+                                                
+                                            
+                                        
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/00/questions">
+                                                        Weekly Exercises
+                                                    </a>
+                                                    
+                                                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/00/answers">
+                                                            Exercise Answers
+                                                        </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        <li class="nav-item">
+                                <a class="nav-link" type="button" data-toggle="collapse" href="#week01">
+                                    Week 01
+                                </a>
+                                <div class="collapse " id="week01">
+                                    <div class="card card-body" style="padding: 0.5rem">
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;revision/01/questions">
+                                                        Revision Questions
+                                                    </a>
+                                                    
+                                                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;revision/01/answers">
+                                                            Revision Answers
+                                                        </a>
+                                                    
+                                                
+                                            
+                                        
+                                        
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/01/questions">
+                                                        Weekly Exercises
+                                                    </a>
+                                                    
+                                                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/01/answers">
+                                                            Exercise Answers
+                                                        </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;workshop/01/questions">
+                                                        Workshop Questions
+                                                    </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        <li class="nav-item">
+                                <a class="nav-link" type="button" data-toggle="collapse" href="#week02">
+                                    Week 02
+                                </a>
+                                <div class="collapse " id="week02">
+                                    <div class="card card-body" style="padding: 0.5rem">
+                                        
+                                            
+                                                
+                                            
+                                        
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/02/questions">
+                                                        Weekly Exercises
+                                                    </a>
+                                                    
+                                                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/02/answers">
+                                                            Exercise Answers
+                                                        </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;workshop/02/questions">
+                                                        Workshop Questions
+                                                    </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        <li class="nav-item">
+                                <a class="nav-link" type="button" data-toggle="collapse" href="#week03">
+                                    Week 03
+                                </a>
+                                <div class="collapse " id="week03">
+                                    <div class="card card-body" style="padding: 0.5rem">
+                                        
+                                            
+                                                
+                                            
+                                        
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/03/questions">
+                                                        Weekly Exercises
+                                                    </a>
+                                                    
+                                                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/03/answers">
+                                                            Exercise Answers
+                                                        </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;workshop/03/questions">
+                                                        Workshop Questions
+                                                    </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        <li class="nav-item">
+                                <a class="nav-link" type="button" data-toggle="collapse" href="#week04">
+                                    Week 04
+                                </a>
+                                <div class="collapse " id="week04">
+                                    <div class="card card-body" style="padding: 0.5rem">
+                                        
+                                            
+                                                
+                                            
+                                        
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/04/questions">
+                                                        Weekly Exercises
+                                                    </a>
+                                                    
+                                                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/04/answers">
+                                                            Exercise Answers
+                                                        </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;workshop/04/questions">
+                                                        Workshop Questions
+                                                    </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        <li class="nav-item">
+                                <a class="nav-link" type="button" data-toggle="collapse" href="#week05">
+                                    Week 05
+                                </a>
+                                <div class="collapse " id="week05">
+                                    <div class="card card-body" style="padding: 0.5rem">
+                                        
+                                            
+                                                
+                                            
+                                        
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/05/questions">
+                                                        Weekly Exercises
+                                                    </a>
+                                                    
+                                                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/05/answers">
+                                                            Exercise Answers
+                                                        </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;workshop/05/questions">
+                                                        Workshop Questions
+                                                    </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        <li class="nav-item">
+                                <a class="nav-link" type="button" data-toggle="collapse" href="#week07">
+                                    Week 07
+                                </a>
+                                <div class="collapse " id="week07">
+                                    <div class="card card-body" style="padding: 0.5rem">
+                                        
+                                            
+                                                
+                                            
+                                        
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/07/questions">
+                                                        Weekly Exercises
+                                                    </a>
+                                                    
+                                                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/07/answers">
+                                                            Exercise Answers
+                                                        </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;workshop/07/questions">
+                                                        Workshop Questions
+                                                    </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        <li class="nav-item">
+                                <a class="nav-link" type="button" data-toggle="collapse" href="#week08">
+                                    Week 08
+                                </a>
+                                <div class="collapse " id="week08">
+                                    <div class="card card-body" style="padding: 0.5rem">
+                                        
+                                            
+                                                
+                                            
+                                        
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/08/questions">
+                                                        Weekly Exercises
+                                                    </a>
+                                                    
+                                                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/08/answers">
+                                                            Exercise Answers
+                                                        </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;workshop/08/questions">
+                                                        Workshop Questions
+                                                    </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        <li class="nav-item">
+                                <a class="nav-link" type="button" data-toggle="collapse" href="#week09">
+                                    Week 09
+                                </a>
+                                <div class="collapse " id="week09">
+                                    <div class="card card-body" style="padding: 0.5rem">
+                                        
+                                            
+                                                
+                                            
+                                        
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/09/questions">
+                                                        Weekly Exercises
+                                                    </a>
+                                                    
+                                                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/09/answers">
+                                                            Exercise Answers
+                                                        </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;workshop/09/questions">
+                                                        Workshop Questions
+                                                    </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        <li class="nav-item">
+                                <a class="nav-link" type="button" data-toggle="collapse" href="#week10">
+                                    Week 10
+                                </a>
+                                <div class="collapse  show " id="week10">
+                                    <div class="card card-body" style="padding: 0.5rem">
+                                        
+                                            
+                                                
+                                            
+                                        
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/10/questions">
+                                                        Weekly Exercises
+                                                    </a>
+                                                    
+                                                        <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;lab/10/answers">
+                                                            Exercise Answers
+                                                        </a>
+                                                    
+                                                
+                                            
+                                        
+                                            
+                                        
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                            
+                                        
+                                            
+                                                
+                                                    <a class="nav-link" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;workshop/10/questions">
+                                                        Workshop Questions
+                                                    </a>
+                                                    
+                                                
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        
+                    </ul>
+                
+
+                <ul class="nav flex-column">
+
+                </ul>
+
+                <div class="pb-3"></div>
+            </div>
+        </nav>
+        <div class="col-md ml-sm-auto col-lg px-md-4">
+            
+
+                <header>
+                    
+                        <h1 class="text-center course-title">Solving Modern Programming Problems with Rust</h1>
+                    
+                </header>
+
+                
+
+<div class="text-center mb-5">
+  <img loading="lazy" src="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;static/ferris_question.png" 
+    height="100">
+</div>
+
+<div class="alert alert-danger w-50 mx-auto">
+
+<p>
+<strong>Sorry!</strong>
+This page doesn't exist on
+the <a href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;">COMP6991 website</a>.
+</p>
+
+<p>
+If you think the URL you've used should work,
+please post a message on
+the <a href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;forum&#x2F;">course forum</a>,
+and we'll fix it as soon as we can.
+</p>
+</div>
+
+
+
+            
+    </div>
+</main>
+<footer class="mt-3 pt-3 bg-dark text-center no-print">
+    <p class="text-muted">
+        <strong>COMP6991 23T3: Solving Modern Programming Problems with Rust</strong>
+        is brought to you by <br/>
+        the <a href="https://www.cse.unsw.edu.au/">School of Computer Science and Engineering</a><br/>
+        at the <a href="https://www.unsw.edu.au/">University of New South Wales</a>, Sydney.<br/>
+        For all enquiries, please email the class account at
+        <a href="mailto:cs6991@cse.unsw.edu.au">cs6991@cse.unsw.edu.au</a><br/>
+
+        <small>CRICOS Provider 00098G</small>
+
+        
+        <a class="float-right mr-3 text-muted" href="https:&#x2F;&#x2F;dvorak.cse.unsw.edu.au&#x2F;~cs6991&#x2F;23T3&#x2F;tutor">
+            Login as tutor
+        </a>
+        
+    </p>
+</footer>
+</body>
+
+</html>
